@@ -5,7 +5,7 @@
   </div>
   <div aria-hidden="true" class="absolute inset-0 bg-gray-900 bg-opacity-50"></div>
   <div class="relative flex flex-col max-w-3xl mx-4 md:mx-auto">
-    <h2 class="text-3xl font-extrabold tracking-tight text-center text-white sm:text-4xl ">Ready to find the perfect 4x4?</h2>
+    <h2 class="text-3xl font-extrabold tracking-tight text-center text-white sm:text-4xl ">{{ __('middle search bar') }}</h2>
     <x-datePicker :displayTitle=false/>
   </div>
 </div>

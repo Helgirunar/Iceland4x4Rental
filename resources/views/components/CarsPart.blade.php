@@ -4,8 +4,8 @@
             <div class="flex flex-col overflow-hidden rounded-lg shadow-lg cursor-none">
                 <div class="flex flex-col flex-1 p-6 h-1/3 bg-gray-50">
                     <div class="flex-1">
-                        <p class="text-xl font-semibold text-gray-900">Small 4x4</p>
-                        <p class="mt-3 text-base text-gray-500">Perfect for 2 people</p>
+                        <p class="text-xl font-semibold text-gray-900"><?echo __('small')?></p>
+                        <p class="mt-3 text-base text-gray-500"><?echo __('smallDescription')?></p>
                     </div>
                     <div class="flex flex-row justify-center">
                         <img src="https://www.iceland4x4rental.com/wp-content/uploads/sites/2/2018/07/small.png" alt="" class="my-4 img-fluid">
@@ -15,8 +15,8 @@
             <div class="relative flex flex-col justify-center overflow-hidden rounded-lg shadow-lg cursor-none">
                 <div class="flex flex-col flex-1 p-6 border bg-gray-50">
                     <div class="flex-1">
-                        <p class="text-xl font-semibold text-gray-900">Medium 4x4</p>
-                        <p class="mt-3 text-base text-gray-500">Good fo Families with kids</p>
+                        <p class="text-xl font-semibold text-gray-900"><?echo __('medium')?></p>
+                        <p class="mt-3 text-base text-gray-500"><?echo __('mediumDescription')?></p>
                     </div>
                     <div class="flex flex-row justify-center">
                         <img src="https://www.iceland4x4rental.com/wp-content/uploads/sites/2/2018/07/medium.png" alt="" class="my-4 img-fluid">
@@ -26,8 +26,8 @@
             <div class="flex flex-col overflow-hidden rounded-lg shadow-lg cursor-none">
                 <div class="flex flex-col flex-1 p-6 h-1/3 bg-gray-50">
                     <div class="flex-1">
-                        <p class="text-xl font-semibold text-gray-900">Large 4x4</p>
-                        <p class="mt-3 text-base text-gray-500">Great for groups of adults</p>
+                        <p class="text-xl font-semibold text-gray-900"><?echo __('large')?></p>
+                        <p class="mt-3 text-base text-gray-500"><?echo __('largeDescription')?></p>
                     </div>
                     <div class="flex flex-row justify-center">
                         <img src="https://www.iceland4x4rental.com/wp-content/uploads/sites/2/2018/07/large.png" alt="" class="my-4 img-fluid">
@@ -37,8 +37,8 @@
             <div class="flex flex-col overflow-hidden rounded-lg shadow-lg cursor-none">
                 <div class="flex flex-col flex-1 p-6 h-1/3 bg-gray-50">
                     <div class="flex-1">
-                        <p class="text-xl font-semibold text-gray-900">Luxury 4x4</p>
-                        <p class="mt-3 text-base text-gray-500">Large and medum luxury</p>
+                        <p class="text-xl font-semibold text-gray-900"><?echo __('luxury')?></p>
+                        <p class="mt-3 text-base text-gray-500"><?echo __('luxuryDescription')?></p>
                     </div>
                     <div class="flex flex-row justify-center">
                         <img src="https://www.iceland4x4rental.com/wp-content/uploads/sites/2/2018/07/luxury.png" alt="" class="my-4 img-fluid">

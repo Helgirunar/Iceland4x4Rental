@@ -5,7 +5,7 @@
     </div>
     <div class="relative max-w-md py-8 mx-auto sm:max-w-7xl lg:px-8">
         <div class="md:ml-auto md:w-1/2 md:pl-10">
-            <x-datePicker />
+            <x-datePicker title="{{ __('search bar title') }}" titleExtra="{{ __('search bar extra text')}}"/>
         </div>
     </div>
 </div>

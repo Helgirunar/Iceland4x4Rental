@@ -17,7 +17,7 @@
     <body>
         <div class="bg-white">
             <div class="relative overflow-hidden">
-                <x-header/>
+                <x-header :language=$language />
                 <main>
                 <x-DataSelectorTop />
 

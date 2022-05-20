@@ -5,12 +5,12 @@
         </div>
         <div class="col-span-2 md:col-span-1">
             <h2 class="text-base font-semibold tracking-wider uppercase text-cyan-600"></h2>
-            <p class="mt-2 text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">Experience Iceland in a 4×4 Rental!</p>
+            <p class="mt-2 text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl"><?echo __('Experience Iceland')?></p>
             <p class="mx-auto mt-5 text-xl text-gray-500 max-w-prose">
-                Explore the open Icelandic landscape behind the wheel of a powerful 4×4 rental car and create an adventure worth talking about over and over again. With unlimited mileage and open access to Highland F-roads, your 4×4 rental car will get you where you wish to go.
+                <?echo __('Experience Iceland Description')?>
             </p>
             <p class="mx-auto mt-5 text-xl text-gray-500 max-w-prose">
-                All major credit cards accepted!
+                <?echo __('Accepted')?>
             </p>
             <img class="mx-auto mt-2 img-fluid" src="{{url('/images/credit-cards-all.png')}}" alt="We accept all major credit cards">
         </div>

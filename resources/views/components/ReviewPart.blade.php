@@ -1,6 +1,6 @@
 <div class="relative py-16 bg-gray-50 sm:py-24 lg:py-32">
     <div class="max-w-md px-4 mx-auto text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-        <p class="mt-2 text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">What our customers have to say...</p>
+        <p class="mt-2 text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">{{ __('review title') }}</p>
         <div class="mt-12">
             <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-2">
                 <div class="relative px-4 pt-5 pb-12 overflow-hidden bg-white rounded-lg shadow sm:pt-6 sm:px-6">

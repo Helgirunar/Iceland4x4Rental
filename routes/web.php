@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\App;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,8 +14,24 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
+Route::get('/{locale}', function ($locale) {
+    $lang = (object)['type' => 'English', 'short' => 'gb'];
+    if(! in_array($locale, ['en', 'es']))
+    {
+        abort(400);
+    }
+    else
+    {
+        if($locale == 'es')
+        {
+            $lang->type = 'Spanish';
+            $lang->short = 'es';
+        }
+
+        App::setLocale($locale);
+    }
+
+    return view('index', ['language' => $lang]);
 });
 
 Route::post('/search', '\App\Http\Controllers\SearchController@index');

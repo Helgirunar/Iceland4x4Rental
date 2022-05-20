@@ -3,7 +3,7 @@
         <div class="grid grid-cols-2 lg:grid lg:grid-cols-2 lg:gap-8">
             <div class="relative w-full col-span-2 mb-6 md:col-span-1">
                 <div class="max-w-md px-4 mx-auto md:col-span-1 sm:max-w-2xl sm:px-6 lg:px-0 lg:text-left lg:flex lg:items-center">
-                    <x-datePicker />
+                    <x-datePicker title="{{ __('search bar title') }}" titleExtra="{{ __('search bar extra text')}}"/>
                     <svg class="absolute inset-y-0 right-0 z-10 hidden w-48 h-full text-white transform translate-x-1/2 lg:block" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
                         <polygon points="50,0 100,0 50,100 0,100" style="stroke:#111827; fill:#111827"/>
                     </svg>
