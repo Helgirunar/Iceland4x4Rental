@@ -8,7 +8,7 @@
                         <p class="mt-3 text-base text-gray-500"><?echo __('smallDescription')?></p>
                     </div>
                     <div class="flex flex-row justify-center">
-                        <img src="https://www.iceland4x4rental.com/wp-content/uploads/sites/2/2018/07/small.png" alt="" class="my-4 img-fluid">
+                        <img src="{{url('/images/4x4Cars/small.png')}}" alt="" class="my-4 img-fluid">
                     </div>
                 </div>
             </div>
@@ -19,7 +19,7 @@
                         <p class="mt-3 text-base text-gray-500"><?echo __('mediumDescription')?></p>
                     </div>
                     <div class="flex flex-row justify-center">
-                        <img src="https://www.iceland4x4rental.com/wp-content/uploads/sites/2/2018/07/medium.png" alt="" class="my-4 img-fluid">
+                        <img src="{{url('/images/4x4Cars/medium.png')}}" alt="" class="my-4 img-fluid">
                     </div>
                 </div>
             </div>
@@ -30,7 +30,7 @@
                         <p class="mt-3 text-base text-gray-500"><?echo __('largeDescription')?></p>
                     </div>
                     <div class="flex flex-row justify-center">
-                        <img src="https://www.iceland4x4rental.com/wp-content/uploads/sites/2/2018/07/large.png" alt="" class="my-4 img-fluid">
+                        <img src="{{url('/images/4x4Cars/large.png')}}" alt="" class="my-4 img-fluid">
                     </div>
                 </div>
             </div>
@@ -41,7 +41,7 @@
                         <p class="mt-3 text-base text-gray-500"><?echo __('luxuryDescription')?></p>
                     </div>
                     <div class="flex flex-row justify-center">
-                        <img src="https://www.iceland4x4rental.com/wp-content/uploads/sites/2/2018/07/luxury.png" alt="" class="my-4 img-fluid">
+                        <img src="{{url('/images/4x4Cars/luxury.png')}}" alt="" class="my-4 img-fluid">
                     </div>
                 </div>
             </div>
