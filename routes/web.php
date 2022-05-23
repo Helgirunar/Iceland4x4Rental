@@ -14,6 +14,10 @@ use Illuminate\Support\Facades\App;
 |
 */
 
+Route::get('/', function () {
+        return redirect('/en');
+});
+
 Route::get('/{locale}', function ($locale) {
     $lang = (object)['type' => 'English', 'short' => 'gb'];
     if(! in_array($locale, ['en', 'es']))
